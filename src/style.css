@@ -1,0 +1,13 @@
+
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+    background: #f1d4e5;
+}
+
+h1 {
+    color: #241468;
+}
