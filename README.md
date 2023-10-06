@@ -3,9 +3,9 @@
 ## Índice
 
 * [1. Consideraciones generales](#1-consideraciones-generales)
-* [2. Resumen del Proyecto](#2-preámbulo)
-* [3. Funcionalidades](#3-resumen-del-proyecto)
-* [4. Diseño del proyecto](#4-funcionalidades)
+* [2. Resumen del Proyecto](#2-resumen-del-proyecto)
+* [3. Funcionalidades](#3-funcionalidades)
+* [4. Diseño del proyecto](#4-diseño-del-proyecto)
 
 
 ***
@@ -55,4 +55,13 @@ resultado en tiempo real a medida que la usuaria escribe su texto:
 clic en un botón.
 
 ## 4. Diseño del proyecto
+
+La aplicación se pensó en modo sencillo con colores suaves para que con una caja de texto más grande y con un color negro para que contrastara con el resto de los objetos y donde el usuario ingresa al ingresar su texto puede verlo mejor, si es que hay algún error, mientras, los bloques que contabilizan la métricas están distribuidos de forma horizontal para que el usuario pueda verlas de forma continua, finalmente se diseña un botón que resalte y que básicamente borra tanto el texto ingresado y lleva las métricas a 0 nuevamente
+
+<img width="921" alt="Prototipo" src="https://github.com/ViZacatzi/DEV012-text-analyzer/assets/145049256/13ffbb6d-3ea1-4eb7-8a0b-820e6359a936">
+
+
+El producto final se acerca mucho al prototipo los colores se mantuvieron, ya que son suaves y cómodos a la vista, pero se realizaron algunas modificaciones, se le dio un formato de letra más grande al titulo para destacarlo y en lugar de estar detrás de una figura tipo flecha se opto por hacer el seleccionado completo, los contabilizados se dejaron el linea horizontal ya que así se le sigue dando importancia al texto y para no variar mucho del prototipo, finalmente el botón simplemente se hizo mas grande conservando sus colores para que destacara de las métricas.
+￼
+<img width="1435" alt="Web" src="https://github.com/ViZacatzi/DEV012-text-analyzer/assets/145049256/5dddeeb4-3f17-4e17-96e5-a6498603bb40">
 
