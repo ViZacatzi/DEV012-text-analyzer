@@ -1,26 +1,23 @@
 
-header {
-
+header{
+  
+  font-size: 30px;
+  font-weight: 100;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: linear-gradient(to left, #45b6cc, #04BBDF);
+  color: #063B61;
+  text-align: center;
 }
 
 
 body {
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    flex-direction: column;
-    gap: 30px;
+
     background: #F1D4E5;
 }
 
-h1 {
-    color: #241468;
-    
-}
+textarea[name="user-input"]{
 
-textarea {
-
-  color: #73BBC9; 
+  color: #ffffff;
   width: 50%;
   height: 250px;
   padding: 15px 15px;
@@ -28,37 +25,47 @@ textarea {
   border: 2px solid #080202;
   border-radius: 4px;
   background-color: #080202;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
+  align-content: center;
+  display: block;
+  margin: 0 auto;
+  
 }
 
 .list {
 
-    color: #241468;
-    border: solid #73BBC9;
-    background-color: #73BBC9;
-    margin: 1em 1em 1em 1em;
+    color: #063B61;
+    background-color: #04BBDF;
+    margin: auto;
     padding: 10px;
     display: inline-table;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    border-radius: 2px;
+    white-space: nowrap;
 
 }
 
 #reset-button {
-    
+
   border: 0;
   line-height: 3;
-  padding: 0 30px;
+  padding: 0 20px;
   font-size: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   color: #73BBC9;
-  text-shadow: 1px 1px 1px #000;
   border-radius: 15px;
-  background-color: #241468;
-
-
+  background-color: #063B61;
+  display: block;
+  padding: 0.5rem 1rem;
+  width: 200px;
+  margin: 0 auto;
 }
 
 footer {
-
-    color: #241468;
-
+  font-size: 20px;
+  color: #063B61;
+  text-align: right;
 }
